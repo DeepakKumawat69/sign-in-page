@@ -26,3 +26,15 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.login-box form {
+    width: 310px;
+    margin: 30px 0;
+    border-bottom: 2px solid #fff;
+}
