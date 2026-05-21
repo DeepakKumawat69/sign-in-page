@@ -59,18 +59,6 @@ h2 {
 .input-box input:valid~label {
     top: -5px;
 }
-}
-
-.input-box input:focus~label,
-.input-box input:valid~label {
-    top: -5px;
-}
-}
-
-.input-box input:focus~label,
-.input-box input:valid~label {
-    top: -5px;
-}
 
 .input-box input{
     width: 100%;
@@ -91,6 +79,20 @@ h2 {
     color: #fff;
 }
 
+.remember-forget {
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    color:#fff;
+}
+.remember-forget {
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    color:#fff;
+}
 .remember-forget {
     margin: -15px 0 15px;
     display: flex;
