@@ -53,6 +53,24 @@ h2 {
     color: #fff;
     pointer-events: none;
     transition: .5s;
+}.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform:translateY(-50%);
+    font-size:1em ;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform:translateY(-50%);
+    font-size:1em ;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
 }
 
 .input-box input:focus~label,
@@ -79,20 +97,6 @@ h2 {
     color: #fff;
 }
 
-.remember-forget {
-    margin: -15px 0 15px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.9em;
-    color:#fff;
-}
-.remember-forget {
-    margin: -15px 0 15px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.9em;
-    color:#fff;
-}
 .remember-forget {
     margin: -15px 0 15px;
     display: flex;
