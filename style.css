@@ -53,29 +53,33 @@ h2 {
     color: #fff;
     pointer-events: none;
     transition: .5s;
-}.input-box label {
-    position: absolute;
-    top: 50%;
-    left: 5px;
-    transform:translateY(-50%);
-    font-size:1em ;
-    color: #fff;
-    pointer-events: none;
-    transition: .5s;
-}.input-box label {
-    position: absolute;
-    top: 50%;
-    left: 5px;
-    transform:translateY(-50%);
-    font-size:1em ;
-    color: #fff;
-    pointer-events: none;
-    transition: .5s;
 }
 
 .input-box input:focus~label,
 .input-box input:valid~label {
     top: -5px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color:#fff;
+    padding: 0 35px 0 5px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color:#fff;
+    padding: 0 35px 0 5px;
 }
 
 .input-box input{
