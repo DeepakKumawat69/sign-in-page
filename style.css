@@ -18,26 +18,6 @@ section {
     background-position: center;
 }
 
-
-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    background: url("Screenshot 2025-10-15 214359.png") no-repeat;
-    background-size: cover;
-    background-position: center;
-}section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    background: url("Screenshot 2025-10-15 214359.png") no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 .login-box {
     width: 400px;
     position: relative;
