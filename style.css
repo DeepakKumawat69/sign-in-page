@@ -31,6 +31,33 @@ section {
     backdrop-filter: blur(4px);
 }
 
+
+.login-box {
+    width: 400px;
+    position: relative;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(225, 255, 255,0.5);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(4px);
+}
+
+.login-box {
+    width: 400px;
+    position: relative;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(225, 255, 255,0.5);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(4px);
+}
+
 h2 {
     font-size: 2em;
     color: #fff;
