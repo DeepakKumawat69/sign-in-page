@@ -87,20 +87,6 @@ h2 {
     color:#fff;
 }
 
-.remember-forget {
-    margin: -15px 0 15px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.9em;
-    color:#fff;
-}
-.remember-forget {
-    margin: -15px 0 15px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.9em;
-    color:#fff;
-}
 .remember-forget label input {
     margin-right: 3px;
 }
