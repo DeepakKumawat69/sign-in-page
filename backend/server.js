@@ -21,6 +21,33 @@ app.get('/', (req, res) => {
     res.json({ message: 'Server is running!' });
 });
 
+// Middleware
+app.use(cors());
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+// Routes
+app.use('/api/auth', authRoutes);
+
+// Test route
+app.get('/', (req, res) => {
+    res.json({ message: 'Server is running!' });
+});
+
+// Middleware
+app.use(cors());
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+// Routes
+app.use('/api/auth', authRoutes);
+
+// Test route
+app.get('/', (req, res) => {
+    res.json({ message: 'Server is running!' });
+});
+
+
 // Connect to MongoDB
 mongoose.connect(process.env.MONGODB_URI)
     .then(() => {
