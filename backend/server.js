@@ -21,6 +21,15 @@ app.get('/', (req, res) => {
     res.json({ message: 'Server is running!' });
 });
 
+// Test route
+app.get('/', (req, res) => {
+    res.json({ message: 'Server is running!' });
+});
+
+// Test route
+app.get('/', (req, res) => {
+    res.json({ message: 'Server is running!' });
+});
 // Connect to MongoDB
 mongoose.connect(process.env.MONGODB_URI)
     .then(() => {
